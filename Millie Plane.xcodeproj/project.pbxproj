@@ -29,7 +29,7 @@
 		36CB512F27B014EE009D30D5 /* score2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = score2.wav; sourceTree = "<group>"; };
 		36CB513127B0240C009D30D5 /* DangerZone.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = DangerZone.mp3; sourceTree = "<group>"; };
 		36CB513527B045E4009D30D5 /* score.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = score.wav; sourceTree = "<group>"; };
-		51C6E4BA1F951D59001794D5 /* DiveIntoSpriteKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DiveIntoSpriteKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		51C6E4BA1F951D59001794D5 /* Millie Plane.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Millie Plane.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		51C6E4BD1F951D59001794D5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		51C6E4BF1F951D59001794D5 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		51C6E4C31F951D59001794D5 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
@@ -54,7 +54,7 @@
 		51C6E4B11F951D59001794D5 = {
 			isa = PBXGroup;
 			children = (
-				51C6E4BC1F951D59001794D5 /* DiveIntoSpriteKit */,
+				51C6E4BC1F951D59001794D5 /* Millie Plane */,
 				51C6E4BB1F951D59001794D5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -62,12 +62,12 @@
 		51C6E4BB1F951D59001794D5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				51C6E4BA1F951D59001794D5 /* DiveIntoSpriteKit.app */,
+				51C6E4BA1F951D59001794D5 /* Millie Plane.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		51C6E4BC1F951D59001794D5 /* DiveIntoSpriteKit */ = {
+		51C6E4BC1F951D59001794D5 /* Millie Plane */ = {
 			isa = PBXGroup;
 			children = (
 				36CB512B27B013E9009D30D5 /* explosion.wav */,
@@ -85,15 +85,15 @@
 				51C6E4CC1F951D59001794D5 /* LaunchScreen.storyboard */,
 				51C6E4CF1F951D59001794D5 /* Info.plist */,
 			);
-			path = DiveIntoSpriteKit;
+			path = "Millie Plane";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		51C6E4B91F951D59001794D5 /* DiveIntoSpriteKit */ = {
+		51C6E4B91F951D59001794D5 /* Millie Plane */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 51C6E4D21F951D59001794D5 /* Build configuration list for PBXNativeTarget "DiveIntoSpriteKit" */;
+			buildConfigurationList = 51C6E4D21F951D59001794D5 /* Build configuration list for PBXNativeTarget "Millie Plane" */;
 			buildPhases = (
 				51C6E4B61F951D59001794D5 /* Sources */,
 				51C6E4B71F951D59001794D5 /* Frameworks */,
@@ -103,9 +103,9 @@
 			);
 			dependencies = (
 			);
-			name = DiveIntoSpriteKit;
+			name = "Millie Plane";
 			productName = DiveIntoSpriteKit;
-			productReference = 51C6E4BA1F951D59001794D5 /* DiveIntoSpriteKit.app */;
+			productReference = 51C6E4BA1F951D59001794D5 /* Millie Plane.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -116,7 +116,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0900;
 				LastUpgradeCheck = 0930;
-				ORGANIZATIONNAME = "Paul Hudson";
+				ORGANIZATIONNAME = "";
 				TargetAttributes = {
 					51C6E4B91F951D59001794D5 = {
 						CreatedOnToolsVersion = 9.0;
@@ -124,7 +124,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 51C6E4B51F951D59001794D5 /* Build configuration list for PBXProject "DiveIntoSpriteKit" */;
+			buildConfigurationList = 51C6E4B51F951D59001794D5 /* Build configuration list for PBXProject "Millie Plane" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -137,7 +137,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				51C6E4B91F951D59001794D5 /* DiveIntoSpriteKit */,
+				51C6E4B91F951D59001794D5 /* Millie Plane */,
 			);
 		};
 /* End PBXProject section */
@@ -312,7 +312,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 99ZUCD4A48;
-				INFOPLIST_FILE = DiveIntoSpriteKit/Info.plist;
+				INFOPLIST_FILE = "Millie Plane/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.DanCoWorldWide.DiveIntoSpriteKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -327,7 +327,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 99ZUCD4A48;
-				INFOPLIST_FILE = DiveIntoSpriteKit/Info.plist;
+				INFOPLIST_FILE = "Millie Plane/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.DanCoWorldWide.DiveIntoSpriteKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -339,7 +339,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		51C6E4B51F951D59001794D5 /* Build configuration list for PBXProject "DiveIntoSpriteKit" */ = {
+		51C6E4B51F951D59001794D5 /* Build configuration list for PBXProject "Millie Plane" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				51C6E4D01F951D59001794D5 /* Debug */,
@@ -348,7 +348,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		51C6E4D21F951D59001794D5 /* Build configuration list for PBXNativeTarget "DiveIntoSpriteKit" */ = {
+		51C6E4D21F951D59001794D5 /* Build configuration list for PBXNativeTarget "Millie Plane" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				51C6E4D31F951D59001794D5 /* Debug */,
