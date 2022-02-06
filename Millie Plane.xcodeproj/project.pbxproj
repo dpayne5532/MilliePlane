@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		36CB512A27B00FA6009D30D5 /* PlayerExplosion.sks in Resources */ = {isa = PBXBuildFile; fileRef = 36CB512927B00FA6009D30D5 /* PlayerExplosion.sks */; };
+		36CB512C27B013E9009D30D5 /* explosion.wav in Resources */ = {isa = PBXBuildFile; fileRef = 36CB512B27B013E9009D30D5 /* explosion.wav */; };
+		36CB512E27B01490009D30D5 /* salty-ditty.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 36CB512D27B01490009D30D5 /* salty-ditty.mp3 */; };
+		36CB513027B014EE009D30D5 /* score2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 36CB512F27B014EE009D30D5 /* score2.wav */; };
+		36CB513227B0240C009D30D5 /* DangerZone.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 36CB513127B0240C009D30D5 /* DangerZone.mp3 */; };
+		36CB513627B045E4009D30D5 /* score.wav in Resources */ = {isa = PBXBuildFile; fileRef = 36CB513527B045E4009D30D5 /* score.wav */; };
 		51C6E4BE1F951D59001794D5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C6E4BD1F951D59001794D5 /* AppDelegate.swift */; };
 		51C6E4C01F951D59001794D5 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 51C6E4BF1F951D59001794D5 /* GameScene.sks */; };
 		51C6E4C41F951D59001794D5 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C6E4C31F951D59001794D5 /* GameScene.swift */; };
@@ -17,6 +23,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		36CB512927B00FA6009D30D5 /* PlayerExplosion.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = PlayerExplosion.sks; sourceTree = "<group>"; };
+		36CB512B27B013E9009D30D5 /* explosion.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = explosion.wav; sourceTree = "<group>"; };
+		36CB512D27B01490009D30D5 /* salty-ditty.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "salty-ditty.mp3"; sourceTree = "<group>"; };
+		36CB512F27B014EE009D30D5 /* score2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = score2.wav; sourceTree = "<group>"; };
+		36CB513127B0240C009D30D5 /* DangerZone.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = DangerZone.mp3; sourceTree = "<group>"; };
+		36CB513527B045E4009D30D5 /* score.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = score.wav; sourceTree = "<group>"; };
 		51C6E4BA1F951D59001794D5 /* DiveIntoSpriteKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DiveIntoSpriteKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		51C6E4BD1F951D59001794D5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		51C6E4BF1F951D59001794D5 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -58,9 +70,15 @@
 		51C6E4BC1F951D59001794D5 /* DiveIntoSpriteKit */ = {
 			isa = PBXGroup;
 			children = (
+				36CB512B27B013E9009D30D5 /* explosion.wav */,
+				36CB513527B045E4009D30D5 /* score.wav */,
+				36CB512F27B014EE009D30D5 /* score2.wav */,
+				36CB512D27B01490009D30D5 /* salty-ditty.mp3 */,
+				36CB513127B0240C009D30D5 /* DangerZone.mp3 */,
 				51C6E4BD1F951D59001794D5 /* AppDelegate.swift */,
 				51C6E4BF1F951D59001794D5 /* GameScene.sks */,
 				51C6E4C31F951D59001794D5 /* GameScene.swift */,
+				36CB512927B00FA6009D30D5 /* PlayerExplosion.sks */,
 				51C6E4C51F951D59001794D5 /* GameViewController.swift */,
 				51C6E4C71F951D59001794D5 /* Main.storyboard */,
 				51C6E4CA1F951D59001794D5 /* Assets.xcassets */,
@@ -129,10 +147,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36CB512C27B013E9009D30D5 /* explosion.wav in Resources */,
+				36CB513027B014EE009D30D5 /* score2.wav in Resources */,
 				51C6E4C91F951D59001794D5 /* Main.storyboard in Resources */,
+				36CB513627B045E4009D30D5 /* score.wav in Resources */,
 				51C6E4C01F951D59001794D5 /* GameScene.sks in Resources */,
 				51C6E4CB1F951D59001794D5 /* Assets.xcassets in Resources */,
+				36CB512E27B01490009D30D5 /* salty-ditty.mp3 in Resources */,
+				36CB512A27B00FA6009D30D5 /* PlayerExplosion.sks in Resources */,
 				51C6E4CE1F951D59001794D5 /* LaunchScreen.storyboard in Resources */,
+				36CB513227B0240C009D30D5 /* DangerZone.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
