@@ -1,5 +1,4 @@
  # Millie Plane (iPadOS)
-------------------------------------
 
 ![alt text](https://danpayne.info/mp.png)
 
