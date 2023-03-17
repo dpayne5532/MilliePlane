@@ -1,6 +1,6 @@
  # Millie Plane (iPadOS)
 
-![alt text](https://raw.githubusercontent.com/dpayne5532/TakeHomeFrontEnd/master/iconOne.png)
+![alt text](https://danpayne.info/mp.png)
 
 [Apple TestFlight Link](https://testflight.apple.com/join/6iP84rAD)  -  Install on your devie using Apple's TestFlight Beta platform
 
